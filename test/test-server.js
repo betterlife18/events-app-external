@@ -64,7 +64,7 @@ describe('GET /', function () {
 
 describe('POST /event', function () {
   it('adds an event', function (done) {
-  const data = { title: 'test event', description: 'even cooler test' };
+  const data = { title: 'test event', description: 'stupid test' };
     //specify the url to be intercepted
     nock("http://localhost:8082")
       //define the method to be intercepted
